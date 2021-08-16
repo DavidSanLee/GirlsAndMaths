@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geómeticas
+    </title>
+    <link rel="stylesheet" href="./input.css">
+    
+</head>
+<body>
+    
+    
+
+    <section class="principal">
+
+        <header class="header" >
+            <h1>Figuras Geometricas</h1>
+        </header>
+        
+        <form action="" class="contenedor contenedor--1" >
+
+            <h2>Calcula el area de un rectangulo</h2>
+            <br>
+            <label class="letra" for="baseR">
+                Escribe cuando mide la base del rectangulo
+            </label>
+            <br>
+            <br>
+            <input id="baseR" type="number">
+            <br>
+            <br>
+            <br>
+            <label class="letra" for="alrutaR">
+                Escribe cuando mide la altura del rectangulo
+            </label>
+            <br>
+            <br>
+            <input id="alrutaR" type="number">
+            <br>
+            <br>
+            <br>
+            <button class="boton" type="button" onclick="calcularAreaRectangulo()" >
+                calcular area
+            </button>
+            <br>
+            <br>
+
+            <p id="resultRec" ></p>
+        </form>
+
+
+
+        
+        <form action="" class="contenedor  contenedor--2" >
+            <h2>Mostar si es triangulo Isoceles y calcular su area </h2>
+            <br>
+            
+            <label class="letra" for="ladoA">
+                Escribe la base del triangulo
+            </label>
+            <br>
+            <br>
+            <input id="ladoA" type="number">
+            <br>
+            <br>
+            <br>
+            <label class="letra" for="ladoB">
+                Escribe el primer lado del triangulo
+            </label>
+            <br>
+            <br>
+            <input id="ladoB" type="number">
+            <br>
+            <br>
+            <br>
+            <label class="letra" for="ladoC">
+                Escribe el segundo lado de tu triangulo
+            </label>
+            <br>
+            <br>
+            <input id="ladoC" type="number">
+            <br>
+            <br>
+            <br>
+
+            <button class="boton" type="button" onclick="tipoDeTriangulo()" >
+                Ver que tipo de triangulo es y calcular la altura  
+            </button>    
+            <br>
+            <br>
+            
+            <p id="resultTri" ></p>
+        </form>
+        <div class="contenedor contenedor--3 " >
+            <h2>Poema de Kepler</h2>
+            <br>
+            <p class="letra" >Kepler miró llorando los cinco poliedros
+                encajados uno en otro, sistemáticos, perfectos,
+                en orden musical hasta la gran esfera.
+                
+                Amó al dodecaedro, lloró al icosaedro
+                por sus inconsecuencias y sus complicaciones
+                adorables y raras, pero, ¡ay!, tan necesarias,
+                pues no cabe idear más sólidos perfectos
+                que los cinco sabidos, cuando hay tres dimensiones.
+                
+                Pensó, mirando el cielo matemático, lejos,
+                que quizá le faltara una lágrima al miedo.
+                
+                La lloró cristalina: depositó el silencio,
+                y aquel metapoliedro, geometría del sueño,
+                no pensable y a un tiempo normalmente correcto,
+                restableció sin ruido la paz del gran sistema.
+                
+                No cabía, es sabido, según lo que decían,
+                más orden que el dictado. Mas él soñó: pensaba.
+                
+                Eran más que razones: las razones ardían.
+                Estaba equivocado, mas los astros giraban.
+                
+                Su sistema era sólo, según lo presentido,
+                el orden no pensado de un mundo enloquecido,
+                y él buscaba el defecto del bello teorema.
+                
+                Lo claro coincidía de hecho con el espanto
+                y en la nada, la nada le besaba a lo exacto. </p>
+        </div>
+        <br>
+        <br>
+        
+        
+        
+
+    </section>
+
+
+    <script src="./figuras.js" ></script>
+</body>
+</html>

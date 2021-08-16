@@ -1,0 +1,89 @@
+/* fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Recursive:wght@300&family=STIX+Two+Text:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Recursive:wght@300&family=Roboto:wght@300&family=STIX+Two+Text:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans&family=Recursive:wght@300&family=Roboto:wght@300&family=STIX+Two+Text:ital,wght@1,500&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: large;
+}
+
+body {
+  background: url(./img/math.jfif) no-repeat center center;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #fef4f2;
+}
+
+h1 {
+  /* */
+  background-color: rgba(0, 0, 0, 0.205);
+  font-size: 60px;
+  color: #f37a45;
+  text-align: center;
+  font-family: "Noto Sans", sans-ser;
+}
+
+h2 {
+  font-size: 35px;
+  color: #ff64dd;
+  font-family: "Lora", serif;
+}
+
+.principal {
+  width: 90%;
+  max-width: 1500px;
+  margin: 20px auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  color: #f37a45;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+}
+
+.header {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.principal > form, .principal > header, .principal > div {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.principal input {
+  background-color: rgba(245, 222, 179, 0.445);
+  border-style: none;
+  border-radius: 10px;
+}
+
+.contenedor--1 {
+  background-color: rgba(245, 222, 179, 0.377);
+}
+
+.contenedor--2 {
+  background-color: rgba(243, 121, 69, 0.431);
+}
+
+.contenedor--3 {
+  background-color: rgba(134, 169, 211, 0.411);
+}
+
+.letra {
+  font-size: 20px;
+}
+
+.boton {
+  border-radius: 10px;
+  background-color: #f37a45;
+}
+
+#resultRec, #resultTri {
+  font-size: 25px;
+  color: #ff6929;
+}
+/*# sourceMappingURL=input.css.map */
